@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "easyclientv2",
+  "version": "1.0.0",
+  "name": "Easy Client V2",
+  "description": "Press Left Ctrl to open a GUI and send a custom packet to the server.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "sources": "https://github.com/YourName/EasyClientV2"
+  },
+  "license": "MIT",
+  "icon": "assets/easyclientv2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.easyclientv2.EasyClientV2"
+    ],
+    "client": [
+      "com.example.easyclientv2.EasyClientV2Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
